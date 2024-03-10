@@ -1,0 +1,77 @@
+[gd_scene load_steps=4 format=3 uid="uid://e8qb8pct4ykf"]
+
+[ext_resource type="PackedScene" uid="uid://cnetrjct8j3cc" path="res://player.tscn" id="1_tt4tr"]
+[ext_resource type="PackedScene" uid="uid://dv8c880ofughh" path="res://pine_tree.tscn" id="2_pb6kr"]
+[ext_resource type="PackedScene" uid="uid://skqh7yntnb3b" path="res://enemy.tscn" id="3_8p01v"]
+
+[node name="Game" type="Node2D"]
+y_sort_enabled = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+offset_top = 4.0
+offset_right = 1919.0
+offset_bottom = 1080.0
+color = Color(0.570196, 0.874961, 0.597606, 1)
+
+[node name="Pine Tree" parent="." instance=ExtResource("2_pb6kr")]
+position = Vector2(191, 477)
+
+[node name="Pine Tree2" parent="." instance=ExtResource("2_pb6kr")]
+position = Vector2(553, 979)
+
+[node name="Pine Tree3" parent="." instance=ExtResource("2_pb6kr")]
+position = Vector2(364, 825)
+
+[node name="Pine Tree7" parent="." instance=ExtResource("2_pb6kr")]
+position = Vector2(1500, 902)
+
+[node name="Pine Tree8" parent="." instance=ExtResource("2_pb6kr")]
+position = Vector2(1297, 458)
+
+[node name="Pine Tree9" parent="." instance=ExtResource("2_pb6kr")]
+position = Vector2(1432, 560)
+
+[node name="Pine Tree10" parent="." instance=ExtResource("2_pb6kr")]
+position = Vector2(464, 302)
+
+[node name="Pine Tree11" parent="." instance=ExtResource("2_pb6kr")]
+position = Vector2(1182, 574)
+
+[node name="Pine Tree12" parent="." instance=ExtResource("2_pb6kr")]
+position = Vector2(1883, 647)
+
+[node name="Player" parent="." instance=ExtResource("1_tt4tr")]
+position = Vector2(922, 581)
+
+[node name="Enemy5" parent="." instance=ExtResource("3_8p01v")]
+position = Vector2(836, 750)
+
+[node name="Enemy4" parent="." instance=ExtResource("3_8p01v")]
+position = Vector2(1134, 782)
+
+[node name="Enemy3" parent="." instance=ExtResource("3_8p01v")]
+position = Vector2(597, 638)
+
+[node name="Enemy2" parent="." instance=ExtResource("3_8p01v")]
+position = Vector2(1283, 626)
+
+[node name="Enemy" parent="." instance=ExtResource("3_8p01v")]
+position = Vector2(602, 510)
+
+[node name="Pine Tree4" parent="." instance=ExtResource("2_pb6kr")]
+position = Vector2(236, 155)
+
+[node name="Pine Tree5" parent="." instance=ExtResource("2_pb6kr")]
+position = Vector2(1517, 159)
+
+[node name="Pine Tree6" parent="." instance=ExtResource("2_pb6kr")]
+position = Vector2(718, 172)
+
+[node name="Pine Tree13" parent="." instance=ExtResource("2_pb6kr")]
+position = Vector2(750, 956)
+
+[node name="Pine Tree14" parent="." instance=ExtResource("2_pb6kr")]
+position = Vector2(1067, 230)
